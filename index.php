@@ -49,6 +49,40 @@
                     <p class="w_p">Сохраним тепло в вашем доме!</p>
                     <h1 class="w_h1">Окна, балконы, лоджии с большими скидками.</h1>
                     <a class="w_a" href="#">Хочу консультацию</a>
+                    <img class="w_img" src="img/welcome_2.png" alt="welcome_2">
+                </div>
+            </div>
+        </section>
+        <section class="advantages_section">
+            <div class="wrapper">
+                <div class="advantages">
+                    <div class="a_item">
+                        <i class="fa fa-check fa-fw fa-2x" aria-hidden="true"></i>
+                        <h2 class="ai_h2">Гарантия до 20 лет</h2>
+                        <p class="ai_p">Мы используем только качественные и проверенные материалы и комплектующие.</p>
+                    </div>
+                    <div class="a_item">
+                        <i class="fa fa-check fa-fw fa-2x" aria-hidden="true"></i>
+                        <h2 class="ai_h2">Окна за 5 дней</h2>
+                        <p class="ai_p">Срок изготовления стандартных изделий от 5 рабочих дней.</p>
+                    </div>
+                    <div class="a_item">
+                        <i class="fa fa-check fa-fw fa-2x" aria-hidden="true"></i>
+                        <h2 class="ai_h2">Нас советуют друзьям</h2>
+                        <p class="ai_p">Более 30% заказов - это повторные клиенты или заказчики, которым нас порекомендовали.</p>
+                    </div>
+                    <div class="a_item">
+                        <i class="fa fa-check fa-fw fa-2x" aria-hidden="true"></i>
+                        <h2 class="ai_h2">Рассрочка</h2>
+                        <p class="ai_p">Тут будет опупенный текст для рассрочки.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper">
+                <div>
+                    
                 </div>
             </div>
         </section>
