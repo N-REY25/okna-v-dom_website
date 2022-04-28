@@ -366,8 +366,27 @@ header {
     margin-top: 20px;
 }
 
-.prot_p {
+.pro_items {
+    display: flex;
+}
 
+.pro_item {
+    width: 100%;
+    display: flex;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-radius: 3px;
+}
+
+.proi_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.proi_img {
+    height: 250px;
 }
 
 /* Адаптив */

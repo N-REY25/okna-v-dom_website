@@ -126,7 +126,13 @@
 
                     </div>
                     <div class="pro_items">
-
+                        <div class="pro_item">
+                            <img class="proi_img" src="img/filter/brus-60.jpg" alt="">
+                            <div class="proi_text">
+                                <h3 class="proit_h3">BRUSBOX 60 AERO</h3>
+                                <p class="proit_p">• конструктивная ширина — 60 мм</br>• количество камер — 3 шт.</br>• толщина лицевых стенок — 2.5 мм</br>• нахлест уплотнений – 8 мм</br>• максимальная толщина заполнения — 32 мм</br>• сопротивление теплопередаче — 0,76 м2С/Вт (без армирования)</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
