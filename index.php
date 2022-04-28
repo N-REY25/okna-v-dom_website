@@ -48,7 +48,7 @@
                 <div class="welcome">
                     <p class="w_p">Сохраним тепло в вашем доме!</p>
                     <h1 class="w_h1">Окна, балконы, лоджии с большими скидками.</h1>
-                    <a class="w_a" href="#">Хочу консультацию</a>
+                    <a class="w_a" href="#">Получить консультацию</a>
                     <img class="w_img" src="img/welcome_2.png" alt="welcome_2">
                 </div>
             </div>
@@ -74,15 +74,37 @@
                     <div class="a_item">
                         <i class="fa fa-check fa-fw fa-2x" aria-hidden="true"></i>
                         <h2 class="ai_h2">Рассрочка</h2>
-                        <p class="ai_p">Тут будет опупенный текст для рассрочки.</p>
+                        <p class="ai_p">###### ########### ########## ########## ### ## ########## #### ###########</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
+        <section class="price_section">
             <div class="wrapper">
-                <div>
-                    
+                <div class="price">
+                    <h2 class="pr_h2">Закажи с <span class="prh2_style">максимальной</span> выгодой!</br>Окна от производителя!</h2>
+                    <p class="pr_p">В нашей компании вы можете заказать окна, балконы, лоджии с максимальной выгодой. Мы обязательно учтем все ваши пожелания и дадим квалифицированную консультацию совершенно бесплатно!</p>
+                    <div class="pr_items">
+                        <div class="pr_item">
+                            <img class="pri_img" src="img/price.png" alt="Окна для цены">
+                            <h3 class="pri_h3">Окна</h3>
+                            <p class="pri_p">от 8 600* руб.</p>
+                        </div>
+                        <div class="pr_item">
+                            <img class="pri_img" src="img/price_2.png" alt="Балконы для цены">
+                            <h3 class="pri_h3">Балконы</h3>
+                            <p class="pri_p">от 13 700* руб.</p>
+                        </div>
+                        <div class="pr_item">
+                            <img class="pri_img" src="img/price_3.png" alt="Балконные блоки для цены">
+                            <h3 class="pri_h3">Балконные блоки</h3>
+                            <p class="pri_p">от 11 200* руб.</p>
+                        </div>
+                    </div>
+                    <div class="pr_button">
+                        <a class="prb_a_cons" href="#">Получить консультацию</a>
+                        <a class="prb_a_serv" href="#">Другие услуги</a>
+                    </div>
                 </div>
             </div>
         </section>

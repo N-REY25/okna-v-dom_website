@@ -217,6 +217,108 @@ header {
     font-size: 15px;
 }
 
+/* Примерные цены */
+.price_section {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+}
+
+.pr_h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.prh2_style {
+    color: #4335ae;
+}
+
+.pr_p {
+    font-size: 20px;
+}
+
+.pr_items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.pr_item {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pri_img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.pri_h3 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.pri_p {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.pr_button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.prb_a_cons {
+    text-decoration: none;
+    background-color: #4335ae;
+    box-shadow: 0px 0px 15px 5px #31278340;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 3px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+.prb_a_cons:hover {
+    background-color: #312783;
+}
+
+.prb_a_serv {
+    text-decoration: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #4335ae;
+    box-shadow: 0px 0px 15px 5px #31278340;
+    color: #4335ae;
+    font-weight: 500;
+    border-radius: 3px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.prb_a_serv:hover {
+    border-color: #312783;
+    background-color: #312783;
+    color: #fff;
+}
+
 /* Адаптив */
 
 @media screen and (max-width:768px) {
@@ -247,6 +349,15 @@ header {
         padding-bottom: 10px;
         margin-top: 5px;
         margin-bottom: 5px;
+    }
+
+    .pr_items {
+        flex-direction: column;
+    }
+
+    .pr_item {
+        width: auto;
+        margin: 20px;
     }
 }
 
@@ -279,6 +390,15 @@ header {
         display: flex;
         width: 100%;
         margin-top: 20px;
+    }
+
+    .advantages {
+        flex-direction: column;
+    }
+
+    .a_item {
+        text-align: left;
+        align-items: flex-start;
     }
 }
 
