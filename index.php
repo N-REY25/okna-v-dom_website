@@ -113,14 +113,20 @@
                 <div class="profile">
                     <h2 class="pro_h2"><span class="proh2_style">Большой выбор</span> профильных систем и комплектующих</h2>
                     <div class="pro_filter">
-                        <a class="prof_a" href="#" onclick="ajax_filter('rehau')">REHAU</a>
-                        <a class="prof_a" href="#" onclick="ajax_filter('elex')">ELEX</a>
-                        <a class="prof_a" href="#" onclick="ajax_filter('brusbox')">BRUSBOX</a>
-                        <a class="prof_a" href="#" onclick="ajax_filter('salamander')">SALAMANDER</a>
-                        <a class="prof_a" href="#" onclick="ajax_filter('gealan')">GEALAN</a>
-                        <a class="prof_a" href="#" onclick="ajax_filter('faust')">FAUST</a>
-                        <a class="prof_a" href="#" onclick="ajax_filter('krauss')">KRAUSS</a>
-                        <a class="prof_a" href="#" onclick="ajax_filter('provedal')">PROVEDAL</a>
+                        <a class="prof_a" onclick="ajax_filter('rehau')">REHAU</a>
+                        <a class="prof_a" onclick="ajax_filter('elex')">ELEX</a>
+                        <a class="prof_a" onclick="ajax_filter('brusbox')">BRUSBOX</a>
+                        <a class="prof_a" onclick="ajax_filter('salamander')">SALAMANDER</a>
+                        <a class="prof_a" onclick="ajax_filter('gealan')">GEALAN</a>
+                        <a class="prof_a" onclick="ajax_filter('faust')">FAUST</a>
+                        <a class="prof_a" onclick="ajax_filter('krauss')">KRAUSS</a>
+                        <a class="prof_a" onclick="ajax_filter('provedal')">PROVEDAL</a>
+                    </div>
+                    <div class="pro_text_info">
+
+                    </div>
+                    <div class="pro_items">
+
                     </div>
                 </div>
             </div>
@@ -131,14 +137,11 @@
                     url: '/api/',
                     method: 'get',
                     dataType: 'json',
-                    data: {query: 'newbuilding_recommendations'},
+                    data: {query: 'filter', profile: click},
                     success: function(data) {
-                        $('.r_items').empty();
-                        let i = 0;
-                        while (i < data['response']['newbuildings'].length) {
-                            $('.r_items').append('<div class="r_item"><div class="ri_text"><h3 class="rit_h3">' + data['response']['newbuildings'][i]['name'] + '</h3><p class="rit_price">' + data['response']['newbuildings'][i]['priceDisplay'] + '</p><p class="rit_address">' + data['response']['newbuildings'][i]['fullAddress'] + '</p></div><img class="ri_img" src="' + data['response']['newbuildings'][i]['image']['fullUrl'] + '"></div>');
-                            i++;
-                        }
+                        $('.pro_items').empty();
+                        $('.pro_text_info').empty();
+                        $('.pro_text_info').append('<p class="prot_p">' + data['text_info'] + '</p>');
                     }
                 });
             }

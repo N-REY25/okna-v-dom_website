@@ -353,6 +353,21 @@ header {
     font-size: 18px;
     font-weight: 500;
     margin-right: 10px;
+    cursor: pointer;
+}
+
+.prof_a:hover {
+    text-decoration: underline;
+}
+
+.pro_text_info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.prot_p {
+
 }
 
 /* Адаптив */
