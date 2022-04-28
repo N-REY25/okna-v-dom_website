@@ -273,8 +273,8 @@ header {
 .pr_button {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .prb_a_cons {
@@ -319,7 +319,49 @@ header {
     color: #fff;
 }
 
+/* Профиля */
+.profile_section {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.pro_h2 {
+    text-align: right;
+    font-size: 40px;
+}
+
+.proh2_style {
+    color: #4335ae;
+}
+
+.pro_filter {
+    display: flex;
+    margin-top: 40px;
+}
+
+.prof_a {
+    text-decoration: none;
+    color: #4335ae;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
 /* Адаптив */
+
+@media screen and (max-width:1024px) {
+    .pr_item {
+        width: 300px;
+    }
+}
 
 @media screen and (max-width:768px) {
     .h_nav {
@@ -397,8 +439,14 @@ header {
     }
 
     .a_item {
+        width: 100%;
         text-align: left;
         align-items: flex-start;
+    }
+
+    .pr_h2, .pr_p {
+        font-size: 20px;
+        margin: 20px;
     }
 }
 
