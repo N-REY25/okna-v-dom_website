@@ -186,14 +186,21 @@
             <img class="feed_img" src="img/image2.png" alt="Люди2">
             <div class="wrapper">
                 <div class="feedback">
-                    <div>
-                        <h3>Оставьте заявку и мы обязательно свяжемся с вами!</h3>
-                        <p>Так же вы можете связаться с нами по телефонам:</p>
-                        <p>8 (8412) 25-16-10</p>
-                        <p>8 (937) 416-16-10</p>
+                    <div class="f_text">
+                        <h3 class="ft_h3">Оставьте заявку и мы<br>обязательно свяжемся с вами!</h3>
+                        <p class="ft_p1">Так же вы можете связаться с нами по телефонам:</p>
+                        <p class="ft_p2">8 (8412) 25-16-10</p>
+                        <p class="ft_p2">8 (937) 416-16-10</p>
+                        <div class="ft_soc">
+                            <a class="fts_a" href="https://viber.click/79374161610"><img src="img/viber.svg" alt="viber"></a>
+                            <a class="fts_a" href="https://wapp.click/79374161610"><img src="img/whatsapp.svg" alt="wapp"></a>
+                        </div>
                     </div>
-                    <div>
-                        
+                    <div class="f_form">
+                        <input class="ff_input" type="text" placeholder="Ваше имя">
+                        <input class="ff_input" type="text" placeholder="Номер телефона">
+                        <button class="ff_button">Отправить</button>
+                        <p class="ff_p">Нажимая кнопку отправить, Вы автоматически даете согласие на обработку Ваших персональных данных</p>
                     </div>
                 </div>
             </div>

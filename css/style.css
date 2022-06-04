@@ -629,4 +629,97 @@ header {
 
 .feedback {
     display: flex;
+    justify-content: space-around;
+}
+
+.f_text, .f_form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+}
+
+.ft_h3 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.ft_p1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.ft_p2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.ft_soc {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.fts_a {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.f_form {
+    width: 450px;
+}
+
+.ff_input {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    outline: none;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.ff_button {
+    border: none;
+    color: #4335ae;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fff;
+    border-radius: 5px;
+    outline: none;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.ff_button:hover {
+    background-color: #c2c2c2;
+}
+
+.ff_p {
+    font-size: 15px;
+}
+
+/* -- Footer -- */
+footer {
+    display: flex;
+    justify-content: center;
+    
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer {
+    display: flex;
 }

@@ -5,3 +5,11 @@
         <p class="load_p">Загрузка...</p>
     </div>
 </section>
+
+<footer>
+    <div class="wrapper">
+        <div class="footer">
+            
+        </div>
+    </div>
+</footer>
