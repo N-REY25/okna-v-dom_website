@@ -1,48 +1,16 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Окна в дом - пластиковые окна на заказ в Пензе</title>
         <meta name="description" content="В нашей компании вы можете заказать окна, балконы, лоджии с максимальной выгодой. Мы обязательно учтем все ваши пожелания!">
-        <meta name="keywords" content="Пластиковые окна, Заказать окно в Пензе, Окна в дом, Пенза окна, Окна на заказ, Хорошие пластиковые окна, Окно на дачу">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <!-- Meta -->
+        <?php require 'orm/meta.php'; ?>
     </head>
     <body>
-        <section class="menu menu_off" onclick="menu_up()">
-            <div class="m_menu">
-                <a class="m_a" href="#">Новости</a>
-                <a class="m_a" href="#">Профильные системы</a>
-                <a class="m_a" href="#">Наши услуги</a>
-                <a class="m_a" href="#">Портфолио</a>
-                <a class="m_a" href="#">Рассчитать стоимость</a>
-            </div>
-        </section>
-        <section class="preheader_section">
-            <div class="wrapper">
-                <div class="preheader">
-                    <p class="p_p"><span><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i></span> г. Пенза ул. Коммунистическая, 28</p>
-                    <p class="p_p"><span><i class="fa fa-phone fa-fw" aria-hidden="true"></i></span> 8 (8412) 25-16-10, 8 (937) 416-16-10</p>
-                </div>
-            </div>
-        </section>
-        <header>
-            <div class="wrapper">
-                <div class="header">
-                    <a href="/"><img class="h_img" src="img/logo.png" alt="Logo"></a>
-                    <nav class="h_nav">
-                        <a class="hn_a" href="#">Новости</a>
-                        <a class="hn_a" href="#">Профильные системы</a>
-                        <a class="hn_a" href="#">Наши услуги</a>
-                        <a class="hn_a" href="#">Портфолио</a>
-                        <a class="hn_button" href="#">Рассчитать стоимость</a>
-                    </nav>
-                    <a class="m_h_button_menu" href="#" onclick="menu_down()"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </header>
+        <!-- Header -->
+        <?php require 'orm/header.php'; ?>
+
+        <!-- Welcome -->
         <section class="welcome_section">
             <div class="wrapper">
                 <div class="welcome">
@@ -53,6 +21,8 @@
                 </div>
             </div>
         </section>
+
+        <!-- Advantages -->
         <section class="advantages_section">
             <div class="wrapper">
                 <div class="advantages">
@@ -74,11 +44,13 @@
                     <div class="a_item">
                         <i class="fa fa-check fa-fw fa-2x" aria-hidden="true"></i>
                         <h2 class="ai_h2">Рассрочка</h2>
-                        <p class="ai_p">###### ########### ########## ########## ### ## ########## #### ###########</p>
+                        <p class="ai_p">Рассрочка до 12 месяцев</p>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- Price -->
         <section class="price_section">
             <div class="wrapper">
                 <div class="price">
@@ -108,6 +80,8 @@
                 </div>
             </div>
         </section>
+
+        <!-- Profile -->
         <section class="profile_section">
             <div class="wrapper">
                 <div class="profile">
@@ -123,48 +97,111 @@
                         <a class="prof_a" onclick="ajax_filter('provedal')">PROVEDAL</a>
                     </div>
                     <div class="pro_text_info">
-
+                        <!-- AJAX ответ -->
                     </div>
                     <div class="pro_items">
-                        <div class="pro_item">
-                            <img class="proi_img" src="img/filter/brus-60.jpg" alt="">
-                            <div class="proi_text">
-                                <h3 class="proit_h3">BRUSBOX 60 AERO</h3>
-                                <p class="proit_p">• конструктивная ширина — 60 мм</br>• количество камер — 3 шт.</br>• толщина лицевых стенок — 2.5 мм</br>• нахлест уплотнений – 8 мм</br>• максимальная толщина заполнения — 32 мм</br>• сопротивление теплопередаче — 0,76 м2С/Вт (без армирования)</p>
+                        <!-- AJAX ответ -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Color window -->
+        <section class="color_window_section">
+            <div class="wrapper">
+                <div class="color_window">
+                    <div class="cw_text">
+                        <h3 class="cwt_h3">“Цветные” окна</h3>
+                        <p class="cwt_p">Иногда белый цвет окон не подходит под дизайн дома, или же заказчик просто хочет отказаться от привычного цвета профиля. Мы подберем и изготовим окна нужной цветовой гаммы в короткие сроки!</p>
+                    </div>
+                    <div class="cw_img">
+                        <img class="cwi_img" src="img/color.png" alt="color">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Consultation -->
+        <section class="consultation_section">
+            <img class="c_img" src="img/image.png" alt="Люди">
+            <div class="wrapper">
+                <div class="consultation">
+                    <h2 class="c_h2">Бесплатная консультация и замер</h2>
+                    <p class="c_p">Наш менеджер всегда готов проконсультировать вас по любому вопросу,<br>помочь с выбором профильной системы и расчитать стоимость.<br>Оставьте заявку и мы свяжемся с вами в течение часа.</p>
+                    <div class="c_as">
+                        <a class="c_a" href="#">Получить консультацию</a>
+                        <a class="c_a c_ai" href="#">Рассчитать стоимость онлайн</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="services_section">
+            <div class="wrapper">
+                <div class="services">
+                    <h2 class="s_h2">Дополнительные услуги</h2>
+                    <p class="s_p">Наша компания готова предложить вам большой спектр услуг, которые<br>выполнят квалифицированные специалисты в кратчайшие сроки.</p>
+                    <div class="s_div">
+                        <div class="s_text s_text_left">
+                            <div class="st_info">
+                                <p class="sti_p">Ремонт окон любой сложности</p>
+                                <div class="sti_rat"></div>
+                            </div>
+                            <div class="st_info">
+                                <p class="sti_p">Установка москитных сеток, отливов, подоконников</p>
+                                <div class="sti_rat"></div>
+                            </div>
+                            <div class="st_info">
+                                <p class="sti_p">Жалюзи, рулонные шторы</p>
+                                <div class="sti_rat"></div>
+                            </div>
+                            <div class="st_info">
+                                <p class="sti_p">Замена стеклопакетов</p>
+                                <div class="sti_rat"></div>
+                            </div>
+                        </div>
+                        <img src="img/master.png" alt="Мастер">
+                        <div class="s_text s_text_right">
+                            <div class="st_info">
+                                <div class="sti_rat"></div>
+                                <p class="sti_p">Обшивка и утепление балкона</p>
+                            </div>
+                            <div class="st_info">
+                                <div class="sti_rat"></div>
+                                <p class="sti_p">Монтаж и утепление крыши балкона</p>
+                            </div>
+                            <div class="st_info">
+                                <div class="sti_rat"></div>
+                                <p class="sti_p">Установка откосов</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <script>
-            function ajax_filter(click) {
-                $.ajax({
-                    url: '/api/',
-                    method: 'get',
-                    dataType: 'json',
-                    data: {query: 'filter', profile: click},
-                    success: function(data) {
-                        $('.pro_items').empty();
-                        $('.pro_text_info').empty();
-                        $('.pro_text_info').append('<p class="prot_p">' + data['text_info'] + '</p>');
-                    }
-                });
-            }
 
-            function menu_down() {
-                $('.menu').slideToggle(300, function(){
-                    $('.menu').removeClass('menu_off');
-                    $('.menu').addClass('menu_on');
-                });
-            }
+        <!-- Feedback -->
+        <section class="feedback_section">
+            <img class="feed_img" src="img/image2.png" alt="Люди2">
+            <div class="wrapper">
+                <div class="feedback">
+                    <div>
+                        <h3>Оставьте заявку и мы обязательно свяжемся с вами!</h3>
+                        <p>Так же вы можете связаться с нами по телефонам:</p>
+                        <p>8 (8412) 25-16-10</p>
+                        <p>8 (937) 416-16-10</p>
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            function menu_up() {
-                $('.menu').slideToggle(300, function(){
-                    $('.menu').removeClass('menu_off');
-                    $('.menu').addClass('menu_on');
-                });
-            }
-        </script>
+        <!-- Footer -->
+        <?php require 'orm/footer.php'; ?>
+        <!-- Script -->
+        <?php require 'orm/script.php'; ?>
     </body>
 </html>
