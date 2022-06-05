@@ -716,10 +716,106 @@ footer {
     display: flex;
     justify-content: center;
     
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .footer {
     display: flex;
+    flex-direction: column;
+}
+
+.fo_navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fon_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.foni_img {
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+.foni_p {
+    width: 330px;
+    text-align: justify;
+}
+
+.fon_nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.fon_a {
+    color: #000;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.fon_contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.fonc_h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.fonc_p {
+    margin-bottom: 5px;
+}
+
+.fon_map {
+    text-decoration: none;
+    width: 200px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/footer_map.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.fon_map:hover {
+    background-image: url(/img/footer_map2.png);
+}
+
+.fonm_p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #4335ae;
+    background-color: #ffffffaa;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    transition: 0.3s;
+}
+
+.fon_map:hover .fonm_p {
+    background-color: #fff;
+}
+
+.fo_developer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.fod_p {
+    font-weight: 600;
 }

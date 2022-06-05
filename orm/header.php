@@ -15,8 +15,8 @@
             <a href="/"><img class="h_img" src="/img/logo.svg" alt="Logo"></a>
             <nav class="h_nav">
                 <a class="hn_a" href="/">Новости</a>
-                <a class="hn_a" href="/">Профильные системы</a>
-                <a class="hn_a" href="/">Наши услуги</a>
+                <a class="hn_a" href="/#profile">Профильные системы</a>
+                <a class="hn_a" href="/services">Наши услуги</a>
                 <a class="hn_a" href="/">Портфолио</a>
                 <a class="hn_button" href="/">Рассчитать стоимость</a>
             </nav>

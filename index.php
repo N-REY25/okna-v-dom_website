@@ -75,14 +75,14 @@
                     </div>
                     <div class="pr_button">
                         <a class="prb_a_cons" href="#">Получить консультацию</a>
-                        <a class="prb_a_serv" href="#">Другие услуги</a>
+                        <a class="prb_a_serv" href="/services">Другие услуги</a>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Profile -->
-        <section class="profile_section">
+        <section id="profile" class="profile_section">
             <div class="wrapper">
                 <div class="profile">
                     <h2 class="pro_h2"><span class="proh2_style">Большой выбор</span> профильных систем и комплектующих</h2>
