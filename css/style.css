@@ -172,10 +172,6 @@ header {
     margin-bottom: 20px;
 }
 
-.w_h1_color {
-    color: #4335ae;
-}
-
 .w_a {
     text-decoration: none;
     background-color: #4335ae;
@@ -713,6 +709,42 @@ header {
 
 .ff_p {
     font-size: 15px;
+}
+
+/* -- Services page -- */
+.services_page_section {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.services_page {
+    display: flex;
+    flex-direction: column;
+}
+
+.serp_item {
+    display: flex;
+}
+
+.serpi_img {
+    width: 470px;
+    height: 500px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.serpi_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.serpi_text {
+    display: flex;
+    flex-direction: column;
 }
 
 /* -- Footer -- */
