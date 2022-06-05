@@ -21,3 +21,14 @@
         $json = json_encode($arr);
         echo $json;
     }
+
+    if ($_GET['query'] == 'services') {
+        $services = R::findAll('services');
+        $services_arr = array();
+        foreach ($services as $service) {
+            array_push($services_arr, ['id'=>$service['id'], 'photo'=>$service['photo'], 'title'=>$service['title'], 'price'=>$service['price'], 'type'=>$service['type'], 'description'=>$service['description']]);
+        }
+        $arr = ['status'=>'ok', 'services'=>$services_arr];
+        $json = json_encode($arr);
+        echo $json;
+    }

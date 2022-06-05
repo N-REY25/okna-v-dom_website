@@ -707,10 +707,6 @@ header {
     background-color: #c2c2c2;
 }
 
-.ff_p {
-    font-size: 15px;
-}
-
 /* -- Services page -- */
 .services_page_section {
     display: flex;
@@ -726,20 +722,25 @@ header {
 
 .serp_item {
     display: flex;
+    margin-bottom: 40px;
 }
 
 .serpi_img {
-    width: 470px;
-    height: 500px;
+    width: 100%;
+    max-width: 400px;
+    height: 550px;
     object-fit: cover;
-    margin-right: 10px;
+    border-radius: 5px;
+    margin-right: 15px;
 }
 
 .serpi_info {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 10px;
+    align-items: flex-start;
+    margin-left: 15px;
 }
 
 .serpi_text {
@@ -747,11 +748,108 @@ header {
     flex-direction: column;
 }
 
+.serpi_a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #4335ae;
+    box-shadow: 0px 0px 15px 5px #31278340;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 20px;
+    transition: 0.3s;
+}
+
+.serpi_a:hover {
+    background-color: #312783;
+}
+
+.serpit_h2 {
+    margin-bottom: 10px;
+}
+
+.serpit_p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.serpit_p2 {
+    font-size: 17px;
+}
+
+/* -- Modal -- */
+.modal_section {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000090;
+    z-index: 100;
+}
+
+.modal_section_on {
+    display: flex;
+}
+
+.modal {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    background-color: #c9c8d6;
+    box-shadow: 0px 0px 15px 5px #413c6340;
+    border-radius: 5px;
+    text-align: justify;
+    padding: 40px;
+}
+
+.mod_input {
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    outline: none;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.mod_button {
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #4335ae;
+    border-radius: 5px;
+    outline: none;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.mod_button:hover {
+    background-color: #312783;
+}
+
 /* -- Footer -- */
 footer {
     display: flex;
     justify-content: center;
-    
+    background-color: #fff;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -764,7 +862,6 @@ footer {
 .fo_navbar {
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 
 .fon_info {

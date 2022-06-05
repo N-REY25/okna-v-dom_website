@@ -6,6 +6,17 @@
     </div>
 </section>
 
+<!-- Modal -->
+<section class="modal_section">
+    <div class="modal">
+        <input class="mod_input" type="text" placeholder="Ваше имя">
+        <input class="mod_input" type="text" placeholder="Номер телефона">
+        <button class="mod_button">Отправить</button>
+        <p class="mod_p">Нажимая кнопку отправить, Вы автоматически даете согласие на обработку Ваших персональных данных</p>
+    </div>
+</section>
+
+<!-- Footer -->
 <footer>
     <div class="wrapper">
         <div class="footer">

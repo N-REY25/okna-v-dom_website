@@ -54,7 +54,7 @@
         <section class="price_section">
             <div class="wrapper">
                 <div class="price">
-                    <h2 class="pr_h2">Закажи с <span class="prh2_style">максимальной</span> выгодой!</br>Окна от производителя!</h2>
+                    <h2 class="pr_h2">Закажи с <span class="prh2_style">максимальной</span> выгодой!<br>Окна от производителя!</h2>
                     <p class="pr_p">В нашей компании вы можете заказать окна, балконы, лоджии с максимальной выгодой. Мы обязательно учтем все ваши пожелания и дадим квалифицированную консультацию совершенно бесплатно!</p>
                     <div class="pr_items">
                         <div class="pr_item">
