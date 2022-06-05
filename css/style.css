@@ -172,6 +172,10 @@ header {
     margin-bottom: 20px;
 }
 
+.w_h1_color {
+    color: #4335ae;
+}
+
 .w_a {
     text-decoration: none;
     background-color: #4335ae;
